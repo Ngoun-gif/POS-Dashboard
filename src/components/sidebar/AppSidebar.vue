@@ -93,8 +93,8 @@ const data = {
           url: '/category',
         },
         {
-          title: 'Products',
-          url: '/product',
+          title: 'Sub-Categories',
+          url: '/subcategory',
         },
         {
           title: 'Teachers',

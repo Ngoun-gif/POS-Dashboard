@@ -3,6 +3,7 @@ import MasterSection from "@/layouts/MasterSection.vue";
 import Dashboard from "@/modules/dashboard/pages/DashboardPage.vue";
 import LoginPage from "@/modules/auth/pages/LoginPage.vue";
 import CategoryPage from "@/modules/categories/pages/categryPage.vue"
+import SubCategoryPage from "@/modules/sub_categories/pages/SubCategoryPage.vue";
 
 const routes = [
   { path: "/login", name: "login", component: LoginPage },
@@ -14,6 +15,7 @@ const routes = [
       { path: "", redirect: "/dashboard" },
       { path: "dashboard", name: "dashboard", component: Dashboard },
       { path: "category", name: "category", component: CategoryPage },
+      { path: "subcategory", name: "subcategory", component: SubCategoryPage },
 
     ],
   },
