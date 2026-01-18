@@ -4,6 +4,7 @@ import Dashboard from "@/modules/dashboard/pages/DashboardPage.vue";
 import LoginPage from "@/modules/auth/pages/LoginPage.vue";
 import CategoryPage from "@/modules/categories/pages/categryPage.vue"
 import SubCategoryPage from "@/modules/sub_categories/pages/SubCategoryPage.vue";
+import ProductPage from "@/modules/products/pages/ProductPage.vue";
 
 const routes = [
   { path: "/login", name: "login", component: LoginPage },
@@ -16,6 +17,7 @@ const routes = [
       { path: "dashboard", name: "dashboard", component: Dashboard },
       { path: "category", name: "category", component: CategoryPage },
       { path: "subcategory", name: "subcategory", component: SubCategoryPage },
+      { path: "product", name: "product", component: ProductPage },
 
     ],
   },
